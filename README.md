@@ -10,6 +10,15 @@ I have been hired to design and implement the network infrastructure for a small
 * Remote Access: SSH, HTTPS/HTTP
 * Security & Control: ACLs, Port Security, BPDU Guard, Root Guard, DHCP Snooping, Dynamic ARP Inspection (DAI)
 
+## VLAN and IP Addressing Plan
+| Department     | VLAN ID | Subnet            | Gateway IP        |
+|----------------|---------|-------------------|-------------------|
+| Administration | 10      | 192.168.10.0/29   | 192.168.10.1      |
+| Sales          | 20      | 192.168.20.0/29   | 192.168.20.1      |
+| IT             | 30      | 192.168.30.0/29   | 192.168.30.1      |
+| Guest          | 40      | 192.168.40.0/26   | 192.168.40.1      |
+| Servers        | 50      | 192.168.50.0/28   | 192.168.50.1      |
+
 ## Utilities Used
 * Cisco Packet Tracer
 * Cisco CLI
